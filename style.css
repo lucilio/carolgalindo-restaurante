@@ -1,0 +1,191 @@
+/* Elementos Globais */
+	body {
+		margin:0;
+		font-size:20px;
+		text-align:center;
+		background-color:transparent;
+		font-family:helvetica, sans-serif;
+		overflow: hidden;
+		}
+	h1, h3, h5 {
+		font-family:MinyaNouvelle-Bold;
+		color:#ffffff;
+		margin:0;
+		}
+	h2, h4, h6, #total input, .rounded {
+		font-family:MinyaNouvelle-Bold;
+		color:#000000;
+		margin:0;
+		} 
+	h1, h2, #total input {
+		font-size:30px;
+		line-height:35px;
+		}
+	h3, h4, .rounded {
+		font-size:15px;
+		line-height:20px;
+		}
+	p {
+		font-size:10px;
+		font-weight:normal;
+		}
+	img {
+		margin:5px 0;
+		}
+	input {
+		text-align:center;
+		}
+	form, {
+		height:270px;
+		margin:5px 0;
+		}
+/* Cantos arredondados */
+	form *, #alert {
+		border-radius:32px;
+		}
+/* Estrutura da Página */
+	#FBTab {
+		width:500px;
+		height:750px;
+		margin:0px;
+		}
+	#header {
+		height:160px;
+		margin:0;
+		}
+	#art {
+		position:relative;
+		height:260px;
+		margin:5px 0;
+		}
+	#art img  {
+		position:absolute;
+		left:100px;
+		z-index:1;
+		}
+	#art img#capa {
+		position:relative;
+		left:0;
+		z-index:2;
+		-moz-box-shadow: 2px 2px 3px #666;
+		-webkit-box-shadow: 2px 2px 3px #666;
+		box-shadow: 2px 2px 3px #666;		
+		}
+	#footer {
+		height:50px;
+		margin:0px;
+		color:#666666;
+		}
+	#footer img{
+		margin:-15px 0 0 0;
+		}
+	#alert {
+		display:none;
+		position:fixed;
+		width:300px;
+		height:200px;
+		top:265px;
+		left:90px;
+		border:10px #F9BC18 solid;
+		background:#ffffcc;
+		z-index:10;
+		}
+	#alert p{
+		text-align:right;
+		color:#F9BC18;
+		margin:20px 20px 25px 0;
+		}		
+/* Formulário */
+	#total {}
+	.grupo {
+		margin:15px 0;
+		}
+	#submit_button {
+		width:40px;
+		}
+	#submit_button[disabled] {
+		color:#666666;
+		}
+	.bar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		line-height: 1em;
+		padding: 5px 0;
+		margin: 5px 0;
+		background:white;
+		border-top:5px solid #544C2A;
+		border-bottom:5px solid #544C2A;
+		}
+	.negative {
+		background: #544C2A;
+	}
+	.bar.negative {
+		color: #FFE680;	
+	}
+	.positive {
+		background: #ffffcc;
+	}
+	.bar.positive {
+		color: #544C2A;
+	}
+	.display {
+		position: relative;
+		width: 900px;
+		height: 100%;
+		margin: auto;
+		padding-top: 100px;
+		background-color: rgb( 255, 255, 255 );
+		background-color: rgba( 255, 255, 255, 0.9 );
+	}
+	#counter {
+		width:150px;
+		}
+	.transparent {
+		border:none;
+		background:none;
+		}
+	#add_button, #sub_button {
+		width:40px;	
+		}
+	.invisible {
+		display:none;
+		}
+	.textbox {
+		width: 25%;
+		position: fixed;
+		top: 500px;
+		left: 600px;
+		padding: 30px;
+		background-color: white;
+		background-image: url(images/envelope.png);
+		background-repeat: no-repeat;
+		border: solid 1px wheat;
+		border-radius: 15px;
+		}
+	#submit_button {
+		width:100px;
+		}
+	#detail {
+		}
+	.info {
+		}
+	#sucess p {
+		font-size:15px;
+		margin:10px 15px;
+		}
+	#fb_id {
+		display:none;
+	}
+/* Fonte Personalizada */
+	.MinyaNouvelle-Bold {
+		font-family: MinyaNouvelle-Bold;
+		font-weight: normal;
+		font-style: normal;
+		}
+	@font-face {
+		font-family: 'MinyaNouvelle-Bold';
+		src: url('webfonts/157641_0.eot');
+		src: url('webfonts/157641_0.eot?#iefix') format('embedded-opentype'),url('webfonts/157641_0.woff') format('woff'),url('webfonts/157641_0.ttf') format('truetype'),url('webfonts/157641_0.svg#wf') format('svg');
+		}
